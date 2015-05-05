@@ -14,6 +14,8 @@ demonstrates mpi io library run time error on Stampede with intel 15 and impi 5
     #using custom script
     sbatch -A projectId -p development -t 1 -n 1 -N 1 ./run-phi-1mic.sh 
 
-##expected output from each process using runPhi.sh
+##error message 
+
+The following is output from each process when using runPhi.sh
    
     [0] ERROR - ADIO_Init(): Can't load libmpi_lustre.so library: libmpi_lustre.so: cannot open shared object file: No such file or directory
